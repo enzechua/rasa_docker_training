@@ -1,0 +1,22 @@
+version: '3.0'
+services:
+  action:
+    image: action_server
+    build:
+      context: ./actions
+    volumes:
+      - ./actions:/app
+    ports:
+      - "5055:5055"
+    command: python -m rasa_core_sdk.endpoint --actions actions
+
+  rasa:
+    image: rasa/rasa:latest-full
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./:/app
+    command:
+      - run
+    stdin_open: true
+    tty: true

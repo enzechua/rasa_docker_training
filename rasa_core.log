@@ -1,0 +1,137 @@
+2019-06-19 11:04:20,157 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/parse?q=hello&project=nlu&model=rasa_nlu'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /parse not found
+2019-06-26 01:03:17,223 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:03:31,865 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations not found
+2019-06-26 01:05:38,496 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond"query":"Hi"'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond"query":"Hi" not found
+2019-06-26 01:05:46,926 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:07:36,405 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:09:11,663 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:09:26,418 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:10:44,421 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-26 01:10:47,104 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-26 01:11:44,430 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-06-26 01:13:32,856 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:13:50,512 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/default/respond'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/default/respond not found
+2019-06-26 01:15:54,192 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /version not found
+2019-06-26 01:19:59,025 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-06-26 02:14:25,622 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook/rest/webhooks'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/usr/local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/rest/webhooks not found
